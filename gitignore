@@ -1,0 +1,94 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Virtual Environments
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# IDE / Editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Temporary / Log Files
+# ==============================
+*.log
+*.tmp
+*.temp
+
+# ==============================
+# Python Cache / Build
+# ==============================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# ==============================
+# Local Power BI Backup / Temp
+# ==============================
+*.pbi/
+*.pbit-backup
+~$*
+
+# ==============================
+# Local Generated Files
+# ==============================
+outputs/
+output/
+temp/
+tmp/
+
+# ==============================
+# Secrets / Credentials
+# ==============================
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# ==============================
+# Large Local Files
+# Keep the original dataset only if
+# you have confirmed redistribution
+# is permitted.
+# ==============================
+# *.xlsx
+# *.csv
